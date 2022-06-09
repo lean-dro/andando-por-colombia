@@ -1,0 +1,68 @@
+html, html {
+  scroll-behavior: smooth;
+}
+
+.blog-header-logo {
+  font-family: "Verdana", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+  text-decoration: none;
+} 
+
+.spotify{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Century Gothic', Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+p.m-3{
+  font-size: 17.5px;
+  text-align: justify;
+}
